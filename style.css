@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#ffe135;
+}
+
+
+/* styling applied directly on html elements */
+
+body{
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+}
+
+main{
+    max-width: 150vh;
+    margin: auto;
+    margin-top: 4.7vh;
+    margin-bottom: 4.7vh;
+    font-family: 'Comic Neue', cursive;
+}
+
+textarea{
+    max-width: 80%; 
+    max-height: 20vh;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+}
+
+textarea[placeholder]{
+    font-family: 'Comic Neue', cursive;
+}
+
+button{
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 1.2rem;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+    padding: 1vh 12vh;
+}
+
+nav, footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-header h2{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.footer-para{
+    max-width: 80vh;
+    text-align: center;
+    margin: auto;
+    
+}
